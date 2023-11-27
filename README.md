@@ -55,16 +55,6 @@ model.fit(X, y, epochs=50)
 model.predict([10])
 ```
 
-    1/1 [==============================] - 0s 115ms/step
-    
-
-
-
-
-    array([[20.001377]], dtype=float32)
-
-
-
 #### 5. **模型轉換成 .tflite**
 
 
