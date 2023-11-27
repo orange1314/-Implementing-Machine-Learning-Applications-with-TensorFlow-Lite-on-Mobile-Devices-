@@ -77,20 +77,6 @@ tflite_model = converter.convert()
 open("regression.tflite", "wb").write(tflite_model)
 
 ```
-
-    INFO:tensorflow:Assets written to: C:\Users\B20770\AppData\Local\Temp\tmpahzus893\assets
-    
-
-    INFO:tensorflow:Assets written to: C:\Users\B20770\AppData\Local\Temp\tmpahzus893\assets
-    
-
-
-
-
-    1084
-
-
-
 #### 6.測試儲存好的模型
 
 
@@ -115,9 +101,6 @@ interpreter.invoke()
 print(interpreter.get_tensor(output_index))
 
 ```
-
-    [[200.0008]]
-    
 
 #### 7. **在 Android 上部署 TensorFlow Lite 模型**
 
